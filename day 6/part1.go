@@ -42,7 +42,7 @@ func foundPositionOfGuard(grid [][]rune) (int, int) {
 			}
 		}
 	}
-	return -1, -1 // Return -1, -1 if the guard is not found
+	return -1, -1
 }
 
 func findMoves(grid [][]rune, visited [][]int, guardX, guardY int) int {
